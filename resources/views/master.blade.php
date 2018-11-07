@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TechNews - HTML and CSS Template</title>
+    <title>News Website</title>
 
     <!-- favicon -->
     <link href="source/assets/img/favicon.png" rel=icon>
@@ -84,17 +84,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="right_section">
-                                        <ul class="nav navbar-nav">
-                                            <li><a href="#">Login</a></li>
-                                            <li><a href="#">Register</a></li>
-                                            <li class="dropdown lang">
-                                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">En <i class="fa fa-angle-down"></i></button>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                                    <li><a href="#">Bn</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                        <!-- Language Section -->
+                              
 
                                         <ul class="nav-cta hidden-xs">
                                             <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-search"></i></a>

@@ -20,8 +20,15 @@ Route::get('home','NewController@home');
 
 Route::get('detail','NewController@detail');
 
-Route::get('admin/news','AdminController@index')->name('admin.index');
+Route::get('admin/home','AdminController@index')->name('admin.index');
 
 Route::get('admin/listnews','AdminController@list')->name('admin.list');
 
-Route::get('admin/post','AdminController@create')->name('admin.create');
+Route::get('admin/post','AdminController@create')->name('admin.post');
+Route::post('admin/post','AdminController@store')->name('admin.post');
+
+Route::get('admin/edit/{id}','AdminController@edit')->name('admin.edit');
+
+Route::post('admin/edit/{id}','AdminController@update')->name('admin.edit');
+
+Route::get('admin/delete/{id}','AdminController@delete')->name('admin.delete');
